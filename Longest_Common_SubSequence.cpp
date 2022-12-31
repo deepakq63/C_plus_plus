@@ -1,3 +1,4 @@
+// agar longest common palindromic sub-sequence nikalna hai toh string ko reverse kar k dusere string k jagah daal do!
 #include<bits/stdc++.h>
 using namespace std;
 int f(string s,string t,int idx1,int idx2,vector<vector<int>>&dp){
