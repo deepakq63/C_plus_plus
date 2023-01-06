@@ -16,7 +16,7 @@ int n=nums.size();
   vector<vector<int>>dp(n,vector<int>(n+1,-1));
         return f(nums,0,-1,dp);
 }
-    int lengthOfLIS(vector<int>& nums) {                 //O(N)
+    int lengthOfLIS(vector<int>& nums) {                 //O(N^2)
         int n=nums.size();
       
            vector<int>dp(n+1,1);
