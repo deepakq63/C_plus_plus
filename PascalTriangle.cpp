@@ -1,4 +1,4 @@
-// To generate any element at row = r and col = c we can use the formula ^rC_c = r!/c!*(r-c)!
+// To generate any element at row = r and col = c we can use the formula ^rC_c = r!/c!*(r-c)! if row ans col starts for 0 
 
 #include<bits/stdc++.h>
 using namespace std;
