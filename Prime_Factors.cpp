@@ -6,9 +6,12 @@ int main(){
 int n;
 cin>>n;
 vector<int>v;
-for(int i=2;i*i<=n;i++){
+    if(n%2==0) v.push_back(2);
+    while(n%2==0) n/=2;
+for(int i=3;i*i<=sqrt(n);i+2){
+    if(n%i==0) v.push_back(i);
     while(n%i==0){
-        v.push_back(i);
+        
         n/=i;
     }
 }
