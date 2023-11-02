@@ -15,7 +15,7 @@ for(int i=3;i*i<=sqrt(n);i+2){
         n/=i;
     }
 }
-if(n>1) v.push_back(n);
+if(n>2) v.push_back(n);
 for(auto i: v) cout<<i<<" ";
 cout<<endl;
 return 0;
